@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_baseline_add_task_24"
+            android:scaleType="centerCrop" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Add a Task"
+            android:textStyle="bold"
+            android:textSize="25sp"
+             />
+
+
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Task title"
+             />
+
+        <EditText
+            android:textSize="14sp"
+            android:background="@color/greenSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:id="@+id/addTaskName"
+             />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Task Deadline"
+             />
+
+        <TextView
+            android:textSize="14sp"
+            android:hint="Click Here"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@color/greenSecond"
+            android:padding="10dp"
+            android:id="@+id/addTaskDeadline"
+             />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Task Description"
+             />
+
+        <EditText
+            android:textSize="14sp"
+            android:background="@color/greenSecond"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:gravity="top|left"
+            android:id="@+id/addTaskDescription"
+            />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Task Type"
+             />
+
+        <Spinner
+
+            android:textSize="14sp"
+            android:background="@color/greenSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:entries="@array/type"
+            android:padding="10dp"
+            android:id="@+id/taskType"
+             />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Add Status"
+             />
+
+        <Spinner
+
+            android:textSize="14sp"
+            android:background="@color/greenSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:entries="@array/status"
+            android:padding="10dp"
+            android:id="@+id/taskStatus"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:id="@+id/addTask123"
+            android:text="Add task"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/yellowMain"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

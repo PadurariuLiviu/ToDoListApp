@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/personalItem"
+        android:icon="@drawable/ic_baseline_face_retouching_natural_24"
+        android:title="Personal"></item>
+
+    <item
+        android:id="@+id/workItem"
+        android:icon="@drawable/ic_baseline_work_24"
+        android:title="Work"></item>
+
+    <item
+        android:id="@+id/schoolItem"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="School"></item>
+
+
+
+
+</menu>
